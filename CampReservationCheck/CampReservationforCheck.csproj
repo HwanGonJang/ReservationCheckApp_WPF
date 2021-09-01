@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Alert.mp3" />
+    <None Remove="camp.png" />
+    <None Remove="sampleBG.jpg" />
+    <None Remove="wallpaper.jpg" />
+    <None Remove="wallpaper.png" />
+    <None Remove="ydpHigh.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FireSharp" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Alert.mp3" />
+    <Resource Include="camp.png" />
+    <Resource Include="sampleBG.jpg" />
+    <Resource Include="wallpaper.jpg" />
+    <Resource Include="wallpaper.png" />
+    <Resource Include="ydpHigh.jpg" />
+  </ItemGroup>
+
+</Project>
